@@ -19,7 +19,7 @@ async function translateIterate (data, source, target, deeplAuthKey) {
             await translateIterate(data[key], source, target);
         }
     }
-    fs.writeFileSync(`common.${target}.yaml`, yaml.dump(data), 'utf8')
+    fs.writeFileSync(`data-output.${target}.yaml`, yaml.dump(data), 'utf8')
 }
 
 /*Complete array for locales: ['fr', 'es', 'it', 'de', 'pt-pt', 'nl', 'ja', 'ru', 'zh'] */
