@@ -1,0 +1,685 @@
+common:
+  og_description: "A whole new music reading experience. Newzik is a collaborative web & app ecosystem for organizing your scores and collaborating in real-time with other musicians."
+  
+components:
+  offers:
+    nz_basic:
+      pitch: "Explore Newzik for free with up to 15 scores in your library."
+      price: "FREE"
+      period: "forever"
+      cta: "Get started"
+    nz_pro:
+      pitch: "Enjoy Newzik with all features and unlimited storage."
+      price:
+        before_colon: "29"
+        after_colon: ".99"
+      period:
+        yearly: "per year"
+        monthly: "per month"
+      cta: "7 day free trial"
+    nz_edu:
+      pitch: "A comprehensive online teaching solution for music schools."
+      price: "5"
+      period: "per user per year"
+      min_volume: "From 50 licences"
+      cta: "30-day free trial"
+      cta_secondary: "request a quote"
+    nz_ens:
+      pitch: "A premium offer for orchestras adopting digital scores"
+      price: "100"
+      period: "per user per year"
+      min_volume: "From 10 licences"
+      cta: "30-day free trial"
+      cta_secondary: "request a quote"
+    nz_pwp:
+      pitch: "Grow your digital distribution."
+      price: "7"
+      period: "transaction fee"
+      cta: "Get a demo"
+    currency_selector:
+      title: "Currency:"
+      eur: "EUR (€)"
+      usd: "USD ($)"
+    benef:
+      support:
+        title: "User support"
+        desc: "Whether you need help getting started or further down the road, we will be there for you."
+      projects:
+        title: "Collaborate in real-time"
+        desc: "Share your scores and markings in real-time with other musicians."
+      storage:
+        title: "Unlimited storage"
+        desc: "Store as many scores as you want on the Newzik Cloud – limited to 15 with Newzik Basic."
+      livescore:
+        title: "Interactive Scores"
+        desc: "Convert up to 50 pages of sheet music to LiveScore each month."
+      all_pro: 
+        title: "Everything in Pro"
+        desc: "Enjoy Newzik with all features and unlimited storage."
+      admin_rights:
+        title: "Admin rights & restrictions"
+        desc: "Determine what each member can upload, edit, download or delete from a Project."
+      licence_management:
+        title: "Licence management"
+        desc: "Add or transfer licenses at will to welcome guest staff and receive a single yearly invoice."
+      account_manager:
+        title: "Account manager"
+        desc: "Get a dedicated account manager to help you with all business inquiries."
+      digital_distrib:
+        title: "Streamline digital revenue"
+        desc: "Automate digital sales & rental contracts, and grow your digital revenue"
+      catalog_promotion:
+        title: "Promote your catalog"
+        desc: "Send perusal scores or create discounts in a few clicks to promote your catalog."
+      copyright_protection:
+        title: "Protect your copyrights"
+        desc: "Use our built-in DRM system to protect your catalog from piracy."
+      new_customers:
+        title: "Get new customers"
+        desc: "Distribute your content in Newzik and serve our ever-growing community."
+
+  quote-corpo:
+    moreau:
+      name: "Lucie Moreau"
+      job: "Librarian, Orchestre Nationale d'Île-de-France"
+      quote: "With Newzik I can receive digital material from publishers and immediately distribute it to our musicians. This allows them to work from home but also helps me for last-minute program changes."
+    kurz:
+      name: "Maximilian Kurz"
+      job: "Stage manager, Vienna State Opera"
+      quote: "In this period of limited rehearsals and compressed workflow, Newzik is becoming more helpful than ever."
+    visconti:
+      name: "Stefano Visconti"
+      job: "Choir conductor, Monte-Carlo Opera"
+      quote: "The fact that I can instantly send all my notes, corrections and indications to every singer in the middle of rehearsal is to me the greatest strength of Newzik."
+      quote2: "The singers and I developed new conducting codes to adapt to the possibilities of the tool, and it only took us a month before being 100% self-sufficient in our use of digital scores."
+    taylor:
+      name: "David Taylor"
+      job: "CEO, Yorkshire Young Sinfonia"
+      quote: "Using Newzik as an organization has been incredibly easy and simple. It would impossible for us to go back to paper scores now."
+    mccarthy:
+      name: "Patrick McCarthy"
+      job: "Head of Planning & Artistic Operations, Ulster Orchestra"
+      quote: "With iPads set up, our orchestra looks brilliant. Which is especially important for us now because we move to streaming."
+    osuna:
+      name: "Pedro Osuna"
+      job: "Composer & Berklee College of Music graduate (2019)"
+      quote: "If I had had access to Newzik’s mark-up tools in the Cloud as I wrote and shared my college assignments, I would have had more time to make music and learn with fellow students, while saving millions of pieces of paper."
+
+home:
+  hero:
+    title: "A whole new music reading experience"
+    subtitle: "Designed for musicians, schools and orchestras."
+    cta: "Get started for free"
+    signature: "Made with ♥ in Paris. Trusted by 150,000+ musicians."
+  benef_scan:
+    title: "Scan. Listen. Play."
+    p1: "Become the conductor of your own virtual orchestra."
+    p2: "Turn your paper scores into interactive LiveScores for automatic page-turning and dynamic accompaniment."
+    btn: "Find out more"
+  benef_media:
+    title: "Add media files"
+    p1: "Record yourself or add audio, video and MIDI tracks as well as YouTube links to your scores for even more interactivity."
+  quote1:
+    title: "Excellent resource"
+    note: "★★★★★"
+    comment: "“This app is an indispensable resource for online teaching and general use for scores. Highly recommend!”"
+    author: "Esteban 21 – United States, May 11, 2021"
+  benef_tools:
+    title: "A world of possibilities"
+    p1: "Tuner, pitch pipe, metronome, audio recorder, scanner, multitrack mixer…"
+    p2: "From the most basic to the most advanced, Newzik has all the tools you need to practice and perform intuitively with digital scores."
+  benef_markings:
+    title: "Annotate at will"
+    p1: "Create your custom tools to annotate your parts. Use different colors and organize your markings with Layers."
+    p2: "For an even more natural handwriting experience, use an Apple Pencil."
+  quote2:
+    title: "Absolutely essential for my playing"
+    note: "★★★★★"
+    comment: "“Seriously good and flexible app, I swear by it. Developers are responsive too. I hope more people support the app to continue its development.”"
+    author: "Berdot – Netherlands, Apr 23, 2021"
+  benef_collab:
+    title: "Collaborate in real-time with other musicians"
+    p1: "Take a look at your conductor’s score, annotate your students’ exercises or listen to their recordings with Projects, Newzik’s collaborative spaces."
+  benef_stage:
+    title: "Go paperless on stage"
+    p1: "Anticipate every turn with Half-Page Turn. Get up to 7+ hours of autonomy and avoid handling mistakes with our Performance Mode."
+    p2: "The Newzik app your best ally for paperless live performances."
+  quote3:
+    title: "Love this app!"
+    note: "★★★★★"
+    comment: "“This is a very professional app, the only one I know of that allows you to play together with other people in sync. And has so many more features! If you are a real musician, you'll definitively enjoy it.”"
+    author: "Fablau – United States, Apr 30, 2020"
+  benef_orga:
+    title: "Intuitive organization"
+    p1: "Organizing your digital score library is easier than ever with Newzik."
+    p2: "Create custom lists, add multiple scores to the same piece folder, and quickly find any music you are looking for with the global search."
+  benef_cloud:
+    title: "All your scores on any device"
+    p1: "Organize your library from your computer, create your setlists from your phone, and perform on stage with your iPad."
+    p2: "With the Newzik Cloud, your work is constantly synchronized between all your devices."
+  quote4:
+    title: "I love Newzik"
+    note: "★★★★★"
+    comment: "“I honestly love Newzik, and use it on a daily basis. Having everything synchronise is perfect, I can organise my library on my computer and everything appears on my iPad.”"
+    author: "Sunsetandlabrea – United Kingdom, June 8, 2021"
+  subscription:
+    title1: "Start for free."
+    title2: "Then go Pro."
+  institutional_offers:
+    title: "Institutional offers"
+    nz_edu:
+      title: "A unique collaborative platform to teach music online"
+      desc: "Organize and share all your scores and lessons. Mark up your students’ scores in real-time, add audio and video to create interactive material, send assignements in one click, and keep track of your students' progress from anywhere."
+      cta: "Find out more"
+    nz_ens:
+      title: "A premium offer for orchestras adopting digital scores"
+      desc: "Rent digital material from top music publishers, gain efficiency in music distribution, save time in rehearsals and move to a paperless performance with Newzik Ensemble."
+      cta: "Find out more"
+    nz_pub:
+      title: "Rent or sell digital material with full copyright protection"
+      desc: "Distribute rental material on demand, promote perusal scores, manage clients & licenses, and serve all requests instantly with Newzik Publishing Web Platform."
+      cta: "Find out more"
+
+ensemble:
+  hero:
+    title: "Collaborative web & iOS platform for ensembles, orchestras & operas"
+    cta1: "Discover in video"
+    cta2: "Get a demo"
+    carousel: "Trusted by"
+  benef_rent: 
+    title: "Rent digital material from top music publishers"
+    p1: "No more shipping delays. Rent or buy digital material from music publishers legally and securely."
+    p2: "When the rental expires, all markings are stored in your Newzik account so you can retrieve them next season."
+    cta: "Rent digital material"
+  benef_efficiency:
+    title: "Gain efficiency in music distribution"
+    p1: "No more hard copies or heavy one-to-one emails. Distribute all the parts easily within your Newzik workspace, and use access rights and restrictions to protect your files."
+    p2: "Thanks to Newzik's cloud-based infrastructure, your musicians can access and work on their scores from anywhere."
+  benef_time:
+    title: "Save time in rehearsals"
+    p1: "Liberate your musicians from the constraints of paper. Newzik gives them professional tools to mark-up their music, share their bowings, turn pages hands-free and customize the display of their scores."
+  benef_paperless:
+    title: "Move to a paperless performance"
+    p1: "Page turning is a nightmare with paper scores. Use a Bluetooth foot pedal to turn pages hands-free and activate Half-Page Turn to anticipate every bar easily."
+    p2: "With its Performance Mode and 7+ hours of autonomy, the Newzik app is your best ally for performing on stage."
+    cta: "Watch the autonomy test"
+  benef_help:
+    title: "All the help you need"
+    p1: "Newzik offers offers on-site & remote training to help you achieve your digital transition."
+    p2: "Ensembles of more than 20 users get a dedicated acount manager to help with all business and technical requests."
+    cta: "Get a demo"
+  subscription:
+    title:
+      start: "All products."
+      end: "One subscription."
+  hubspot:
+    title: 
+      start: "Want Newzik for your ensemble?"
+      end: "Talk to one of our experts!"
+  rent:
+    title: "No iPad? No problem."
+    p1: "Whether you need to rent a couple iPads, pedals & styluses or an entire fleet for a digital concert, our trusted partner Flex IT Rent provides lightning-fast rental solutions at the best rates in Europe."
+    cta: "Get a quote"
+  case_study:
+    title: "Case studies"
+    entry1:
+      title: "How can digital scores help orchestras respond to Covid-19?"
+      p1: "Due to the pandemic, orchestras are faced with a new kind of challenge: keeping their musicians safe in rehearsals and performances by imposing social distancing and protecting them from viral exposure."
+      p2: "From librarians to stage managers, from musicians to the administration team, our clients report using digital scores has helped them cope with the new health guidelines – and has brought about unexpected new possibilities."
+      cta: "Read the report"
+    entry2:
+      title: "Rouen Opera House: the first live concert on iPads ever"
+      p1: "We know that a revolution is coming. A digital revolution. For us it is interesting to pioneer this project and help build a new model for the orchestral world."
+      p2: "Claire Roserot de Melin, Head of the Rouen Opera House."
+      p3: 'In September 2016, Newzik teamed up with the Rouen Opera House to create the world’s first concert using 12.9" iPad Pros. The results were amazing.'
+      cta: "Keep reading"
+    entry3:
+      title: "The Vienna State Opera's stage managers on Newzik"
+      p1: "I recommend the Newzik App as a perfect collaboration tool, where you can make all the important annotations to the music, and then make it available to all colleagues."
+      p2: "Maximilian Kurz, stage manager, Vienna State Opera"
+      p3: "In January 2018, the Vienna State Opera kicked off the implementation of Newzik to equip all departments in the house with iPads and digital scores."
+      cta: "Keep reading"
+    entry4:
+      title: "Asko | Schönberg Ensemble"
+      desc: "A contemporary ensemble on performing from digital scores"
+      cta: "Keep reading"
+    entry5:
+      title: "French Republican Guard"
+      desc: "France's top military orchestra performing an official concert with Newzik"
+      cta: "Keep reading"
+    entry6:
+      title: "The French Grammies go digital"
+      desc: "A TV orchestra enjoying transposable scores with Newzik in prime-time"
+      cta: "Keep reading"
+    success_stories: "Read more case studies"
+
+pricing:
+  hero:
+    title: "Your Newzik journey starts here"
+    desc: "Start on the right note with the right plan"
+  toggle:
+    individual: "Individual"
+    group: "Group"
+  multiple-licenses:
+    title: "Need multiple licences?"
+    desc: "Newzik offers volume subscriptions at a discount for schools and music ensembles."
+  faq:
+    title: "FAQ"
+    entry1:
+      question: "Do I need a credit card to start the free trial?"
+      answer: "No, you don't. All you need is to create your Newzik account, and fill out the free trial form to get started."
+    entry2:
+      question: "How can I subscribe to Newzik?"
+      answer: "Depending on the plan you choose, you have different ways to subscribe to Newzik. Newzik Pro subscriptions are managed using Apple's In-App Purchase mechanism, so the easiest way to subsribe to Newzik Pro is from the Newzik iOS app. If you don't have access to an iOS device, you can also subscribe by contacting us via email at contact@newzik.com"
+      answer2: "Group offers are managed directly between your organization and our sales team. To discuss your specific needs and receive a personal quote, email us at contact@newzik.com"
+    entry3:
+      question: "How can I manage my plan or cancel my subscription?"
+      answer: "Managing your individual subscription can be done easily from your iOS device. From the account section of the app, you will find the options to subscribe as well as upgrade to a yearly plan. To cancel your Newzik subscription, go to your Apple ID's settings where you can manage all your active subscriptions."
+      answer2: "Group offers are managed directly between your organization and our sales team. To add or remove licences from your group subscription or for any other inquiry about your Newzik plan, contact your account manager or our sales team at contact@newzik.com."
+    entry4:
+      question: "What happens if I cancel my subscription?"
+      answer: "When cancelling your subscription, you keep the benefits of your paid Newzik plan until the expiration of your contract. This means that if you subscribed to the yearly Newzik Pro offer and cancel after 10 months, you will keep all the benefits of Newzik Pro for the 2 remaining months."
+      answer2: "When cancelling your Newzik subscription, make sure to export your scores from your account during the remaining time of your subscription: on the expiration date, your account will revert to Newzik Basic automatically, and you won't be able to open pieces from the app until you have 15 scores or less in your library. You will need to delete the rest of your scores from your library to be able to open pieces again (note that we do not delete anything from your account, and let you decide which pieces you want to keep). Reactivating your Newzik paid plan automatically reactivates the access to all your scores."
+    entry5:
+      question: "Does Newzik support family sharing?"
+      answer: "No. Newzik Pro licenses are personnal and cannot be shared within Apple's family-sharing system."
+      answer2: "The benefits of Newzik Ensemble and Newzik Education (either individual or group licence) cannot be shared with other people. However, group licences can be reassigned to other people within your education or professional institution. To reassign licences, contact your account manager."
+
+app:
+  hero:
+    title:
+      start: "All the tools for your sheet music. "
+      end: "One app."
+    desc: "Upload all your scores and keep your library with you at all times. Annotate your parts with professional tools, and share your markings in real-time with your band or your ensemble."
+    cta1: "Discover in video"
+    cta2: "Download on the App Store"
+  benef_cloud:
+    title: "All your sheet music in one place. Always accessible."
+    p1: "Store thousands of scores, create pieces with multiple parts, and organize them into Setlists and Projects."
+    p2: "With the Newzik Cloud, your music is always safe and accessible. Just connect to your account from any device, and you’re good to go."
+    cta: "Get started"
+  benef_tools:
+    title: "Cutting-edge tools for performing musicians"
+    p1: "Use custom pens, symbols and highlighters to annotate your scores. Navigate with bookmarks and jumps, crop your parts, reorganize pages…"
+    p2: "Over the past 6 years, we have worked with some of the most demanding performers to develop a comprehensive and intuitive toolbox."
+    cta: "Get started"
+  benef_media:
+    title: "Enrich your sheet music with audio and video"
+    p1: "Add audio or MIDI tracks, record yourself or embed YouTube videos to your scores and synchronize everything to automate page turns."
+    p2: "Speed up, slow down or even transpose your media files in one tap to practice and progress."
+    cta: "Get started"
+  benef_collab:
+    title: "Collaborate in real-time"
+    p1: "Newzik lets you share scores and markings in real-time with other users inside shared folders called Projects."
+    p2: "Whether you need to share bowings with your ensemble, exchange riff ideas with your band or send exercises to your students, Newzik will redefine your approach to collaboration."
+    cta: "Get started"
+  quote_ruisi:
+    quote: "“The Newzik software is just so intuitive that you don’t even have to think about it. You can just forget about the fact that it's software and concentrate on the music.”"
+    name: "Max Ruisi, Cellist & Artistic Director, 12 Ensemble"
+  subscription:
+    title:
+      start: "Start for free."
+      end: "Then go Pro."
+  nz_web:
+    title: "Your digital library just got a lot bigger"
+    desc: "Give your scores some real estate and manage your entire library from your computer with Newzik Web."
+    cta: "Find out more"
+
+web:
+  hero:
+    title: "Your digital library just got a lot bigger."
+    desc: "Upload all your scores from any computer. Display your music on a large screen. Organize your library as you wish, and share your parts with other users in real-time."
+    cta1: "Discover in video"
+    cta2: "Start for free"
+  benef_orga:
+    title: "Prepare your music and organize your library"
+    p1: "Upload new music from from your computer and organize it with tags and metadata."
+    p2: "Create bookmarks and add media files, including YouTube videos, to enrich your scores."
+    cta: "Get started"
+  benef_estate:
+    title: "Give your sheet music some real estate"
+    p1: "A lot of musicians use large sheet music, and using a larger screen makes reading more comfortable."
+    p2: "With double page display and full screen mode, your sheet music gets all the screen space it deserves in Newzik Web."
+    cta: "Get started"
+  benef_cloud:
+    title: "Access your score library from any device"
+    p1: "Prepare your next class or your next concert from your computer, and view everything on your iPad or your iPhone when you're on the move."
+    p2: "All modifications made in Newzik Web are instantly replicated in the app."
+    cta: "Get started"
+  benef_collab:
+    title: "Made for collaboration"
+    p1: "With Projects in Newzik Web, one click is all you need to share scores and markings in real-time with other users."
+    p2: "With the Newzik Cloud, sending music and collaborating with your students, your band or your entire orchestra has never been easier."
+    cta: "Get started"
+  quote_ruisi:
+    quote: "“The Newzik software is just so intuitive that you don’t even have to think about it. You can just forget about the fact that it's software and concentrate on the music.”"
+    name: "Max Ruisi, Cellist & Artistic Director, 12 Ensemble"
+  subscription:
+    title:
+      start: "Start for free."
+      end: "Then go Pro."
+  nz_app:
+    title: "Your professional sheet music toolbox"
+    p1: "The unmatched performance and portability of the iPad make it the best device to perform on stage with confidence."
+    p2: "Go beyond paper with the Newzik app, your professional sheet music toolbox, included your Newzik Pro membership."
+    cta1: "Download for free"
+    cta2: "Find out more"
+
+maestria:
+  hero:
+    title: "Bring your scores to life"
+    desc: "The most advanced OMR technology. Turn any paper or PDF score into an interactive LiveScore."
+    cta1: "Get Newzik Pro"
+    cta2: "Discover in video"
+  livescores:
+    title: "Introducing LiveScores"
+    p1: "LiveScores combine the benefits of PDF, MusicXML and MIDI into the most advanced and interactive form of sheet music there is."
+    p2: "A whole new music reading experience."
+    cta: "Video: introduction to LiveScores"
+    gallery:
+      play: 
+        title: "Play"
+        p1: "LiveScores contain a MIDI layer which you can play and listen to."
+        p2: "With this multi-sensorial approach, you will learn faster and improve your sight-reading and audiation skills."
+      control:
+        title: "Control"
+        p1: "In one click, change the tempo of your piece, transpose the accompaniment, or remove your instrument from the mix to practice."
+        p2: "Feels good to be the Maestro, right?"
+      fine-tune:
+        title: "Fine-tune"
+        p1: "Want to change a note or rearrange a piece? LiveScores are compatible with all notation software."
+        p2: "The MIDI layer can be used with your DAW for audio rendering and editing."
+      cta: "Download an example"
+  techno:
+    title: "The technology behind LiveScores"
+    title2: "A new kind of OMR"
+    p1: "For the first time, we applied artificial intelligence and deep learning to Optical Music Recognition (OMR), for unprecedented results."
+    p2: "Trained on 100,000+ scores, Maestria understands classical notation better than any other OMR product. And the more you use it, the better it gets."
+    p3: "A huge leap forward for music technology."
+    gallery:
+      item1:
+        title: "Next generation tech"
+        desc: "To develop Maestria, we worked for 2.5 years with top AI scientists from France, studied decades of academic research and improved on Google and Facebook technology."
+      item2:
+        title: "Carefully taught"
+        desc: "Training Maestria required hundreds of thousands of scores. More than the total repertoire available in fact."
+        desc2: "So we programmed a score generator that also wears out the results to resemble paper."
+      item3:
+        title: "Self-improving"
+        desc: "Maestria is based on deep-learning, so it learns from its mistakes and becomes more accurate with each new conversion."
+        desc2: "The more you use it, the better it gets."
+      item4:
+        title: "A bright future ahead"
+        desc: "Maestria was trained with classical notation, but we won't stop there."
+        desc2: "Soon, it will gain understanding of chord notation and lyrics, making it suited for guitarists and singers."
+  howto:
+    title: "How to get LiveScores?"
+    desc: "LiveScores are created in Newzik from any sheet music you own, using Maestria."
+    user_guide_btn: "User Guide"
+    step1:
+      title: "Choose a score"
+      p1: "Use Newzik's built-in scanner and the camera of your iPhone to capture perfect PDF scans of paper scores."
+      p2: "PDFs can be directly converted to LiveScores in Newzik Web."
+    step2:
+      title: "Start the conversion"
+      p1: "In Newzik Web, open your chosen piece and click on the LiveScore button in the action panel."
+      p2: "Converting to LiveScore takes time: about a couple minutes per page. You can monitor your conversions in the LiveScore dashboard."
+    step3:
+      title: "Enjoy the result"
+      p1: "When your LiveScore is ready, it appears in your library and your LiveScore dashboard."
+      p2: "Open it, click on play, and enjoy the result in Newzik! Or export to your notation software or DAW for editing."
+    cta:
+      title: "Easy as one, two, three."
+      desc: "Get Newzik Pro and create your first LiveScore today."
+      btn: "See pricing"
+  faq:
+    title: "Frequently asked questions"
+    entry1:
+      q: "Is there a limit as to how many pieces I can convert to LiveScores?"
+      a: "Newzik Pro and Newzik Education subscribers can convert up to 50 pages per month. You can check how many pages you have left in the LiveScore Dashboard. We plan to introduce ways to extend this limit in the future."
+    entry2:
+      q: "How long does it take to convert sheet music to LiveScore?"
+      a: "Converting PDF sheet music to LiveScores requires powerful Optical Music Recognition (OMR) algorithms and deep learning processes in order to get the best result possible. Depending on the number of pages and the complexity of your parts, the conversion process can take some time (up to a couple minutes per page). This process will become increasingly faster in the future."
+    entry3:
+      q: "What musical elements can be converted?"
+      a: "Most common musical elements can be converted thanks to Maestria's deep learning technology. We are continuously working on making more and more musical elements compatible, and you can find the updated list of compatible musical elements"
+      link: "here."
+    entry4:
+      q: "I cannot convert my sheet music to LiveScore. Why?"
+      a1: "If the number of pages of the part you are trying to convert exceeds the amount of LiveScore credits you own for the current month (maximum 50 pages per month), you will not be able to convert your sheet music to LiveScore."
+      a2: "It is not possible to convert licensed sheet music to LiveScores."
+      a3: "Please note that only Newzik subscribers (Pro, Education or Ensemble users) have access to this feature."
+    entry5:
+      q: "Can I convert to LiveScore from the Newzik app?"
+      a: "Absolutely. You can now convert your regular scores to LiveScores directly from the app."
+    entry6:
+      q: "The conversion was not accurate, how can I fix it?"
+      a1: "First of all, rate the conversion to help us improve the technology. After a conversion in Newzik Web, you can rate it from 1 to 5 stars and provide written feedback. You can also send an email to contact@newzik.com"
+      a2: "You can also export the MusicXML version of your score to correct it in your notation software. You can do the same with the MIDI file and rework it in your DAW."
+    other_question:
+      title: "Another question?"
+      desc: "Consult our Knowledge Base"
+      desc2: "or send us an email at contact@newzik.com"
+
+education:
+  hero:
+    title: "A unique collaborative platform to teach music online"
+    desc: "Mark up your students’ scores in real-time, create interactive material with audio and video, send assignements in one click, and keep track of your students' progress from anywhere."
+    cta1: "30-day free trial"
+    cta2: "Discover in video"
+    logos: "Trusted by"
+  benef_interactive:
+    title: "Create interactive lessons"
+    p1: "Interactive lessons and exercises help students learn faster, and stay motivated."
+    p2: "In just a few clicks, use the embedded audio recorder, add YouTube links or any other media to create interactive material that will make students feel closer to the teacher during online lessons."
+    cta: "Find out more"
+  benef_projects:
+    title: "Share exercises in one click"
+    p1: "Create a shared space for each class and upload new lessons, exercises and assignements in one click."
+    p2: "All students within a shared space receive new material in real-time, to access it from their computer, their iPhone, or their iPad."
+    cta: "Find out more"
+  benef_orga:
+    title: "Organize your scores and teaching material"
+    p1: "Upload new scores, lessons and exercises in one click, organize your personal library, or create a shared library for your entire school."
+    p2: "Your precious material is safely stored on the Newzik Cloud, so you will never lose anything."
+    cta: "Find out more"
+  benef_progress:
+    title: "Keep track of your students' progress"
+    p1: "Your students can easily make audio or video recordings of themselves to attach to a score or assignement."
+    p2: "As a teacher, you can review their submissions anytime to keep track of their progress."
+    cta: "Find out more"
+  benef_feedback:
+    title: "Give personal feedback from anywhere"
+    p1: "Add hanwdritten markings or type comments on your students’ scores remotely and in real-time."
+    p2: "Use different colors and layers to organize information, and update your indications at anytime based on your students' progress."
+    cta: "Find out more"
+  subscription:
+    title:
+      start: "Take your teaching to the"
+      end: "next level"
+  blog:
+    title: "Recommended reads"
+    main-cta: "More on the blog"
+    btns: "Keep reading"
+    article1:
+      title: "Teaching and rehearsing anywhere with Newzik"
+      desc: "How can digital scores and the Newzik collaborative platform help music educators and students interact in and out of the classroom?"
+    article2:
+      title: "Best free tools for teaching music online in 2021"
+      desc: "Connecting with students online is now an absolute necessity for music schools and teachers. Fortunately, many great tools are available for free online : we gathered and tested the best of them for you."
+    article3:
+      title: "3 ideas for engaging online music lessons using digital scores"
+      desc: "“How can we recreate the fun and engaging atmosphere of a classroom online, while providing educational value?”"
+
+pwp:
+  hero:
+    title: "Rent digital material with full copyright protection"
+    desc: "Newzik PWP is a web platform made for music publishers. Distribute rental material on demand, promote perusal scores, manage clients & licenses, and serve all requests instantly."
+    cta1: "Discover in video"
+    cta2: "Get a demo"
+    logos: "Trusted by"
+  benef_serve:
+    title: " Serve all requests"
+    p1: "Distribute any digital title for rental or sale, enrich it with media files, and serve all requests instantly."
+    p2: "Use Newzik PWP to distribute your digital catalog to all your clients, whether they are ensembles, orchestras, music schools, or individuals."
+    cta: "Get a demo"
+  benef_protection:
+    title: "Protect your catalog"
+    p1: "Apply restrictions to your digital deliveries to ensure complete protection of your copyrights:"
+    list:
+      li1: "Expiration date: your material gets watermaked after the desired duration."
+      li2: "Authorized users: set a maximum number of people allowed to display your content."
+      li3: "Printing and export: you can deactivate print and export features for your content."
+    cta: "Get a demo"
+  benef_metadata:
+    title: "Metadata made easy"
+    p1: "Maintaining clean metadata for your entire catalog is easy with Newzik PWP."
+    p2: "Organize the different editions of a given piece inside a global folder, update metadata and files within it, and add custom fields if you need."
+    cta: "Get a demo"
+  benef_contracts:
+    title: "Manage your digital contracts & clients"
+    p1: "Centralize all your client and contract information inside Newzik PWP to keep track of your digital distribution."
+    p2: "Newzik PWP acts like a CRM which lets you check the status of each contract and see who your biggest digital clients are."
+    cta: "Get a demo"
+  benef_no_brainer:
+    title: "A no-brainer"
+    p1: "No implementation, no upfront investment: within 24 hours, start addressing new customers and generate revenue with Newzik PWP."
+    p2: "No risk: Newzik PWP is commission-based. You only pay if you generate revenue on the platform."
+    cta: "Get a demo"
+  quote:
+    gotlieb:
+      quote: "“Newzik is perfect for sending perusal scores, renting orchestral sets as well as selling print-on-demand items. Now with orchestra members unable to gather in a traditional way, distributing parts via Newzik makes the lives of hire librarians much easier.”"
+      name: "Hanna Gołębiewska, Faber Music"
+    fuligno:
+      quote: "“Newzik PWP allows our customers to rent digital sheet music and access perusal scores without print permissions and for a limited time. Our customers' feedback has been always very positive, not to say thrilling, thanks to the huge possibilities Newzik offers.”"
+      name: "Simone Fuligno, Casa Ricordi Milano"
+  subscription:
+    title:
+      start: "No subscription."
+      end: "Pay as you go."
+  api:
+    title: "Automate digital sales and deliveries from your website"
+    desc: "Create a simple bridge from your webshop to Newzik to serve digital orders instantly and address a pool of 150,000+ prospective customers."
+    cta: "Get a demo"
+
+order-material:
+  hero:
+    title: "Order digital material from your publisher and receive it in Newzik"
+    desc: "For your convenience, Newzik has partnered with the most renowned music publishers around the globe. Don't wait ages to receive your printed copy: ask for digital!"
+  how:
+    title: "How does it work?"
+    l1: "Request your desired perusal score, hire work or simply any specific piece in digital format."
+    l2: "Agree on the terms quote with the publisher."
+    l3: "Receive your content in your Newzik App or in Newzik Web and enjoy."
+  choose:
+    title: "Which publisher do you want to order from?"
+    select: "Select a publisher"
+    pub1: "Boosey & Hawkes"
+    pub2: "Éditions Lemoine"
+    pub3: "Faber Music"
+    pub4: "Schott Music"
+    pub5: "Valonius Press"
+    pub6: "Wise Music Group"
+    continue: "Continue"
+    error: "Make sure you select a publisher."
+
+team:
+  hero:
+    title: "Meet our team"
+    desc: "Newzik is made with ♥ in Paris by a team of passionate developers & entrepreneurs with a passion for music. We work hard to develop the best sheet music reader for all the musicians, orchestras and teachers."
+    join:
+      init: "Want to be part of this adventure?"
+      cta: "Join us!"
+  join:
+    title: "Want to join us?"
+    desc: "Here are our current job offerings:"
+
+menu:
+  mobile:
+    cta-closed: "Get started"
+    main-cta: "Create my account"
+  products:
+    title: "Products"
+    entry_1: "Newzik App"
+    entry_2: "Newzik Web"
+    entry_3: "Maestria"
+    entry_4: "Academy"
+  personas:
+    title: "For whom?"
+    entry_1: "For ensembles"
+    entry_2: "For education"
+    entry_3: "For publishers"
+  pricing:
+    title: "Pricing"
+  lang-selector:
+    en: "English"
+    fr: "Français"
+  sign-in: "Sign in"
+  sign-up: "Sign up"
+
+footer:
+  mailing-list:
+    title: "Let's keep in touch!"
+    desc: "Stay up-to-date with all recent features and updates in our monthly newsletter."
+    next: "Next"
+    send: "Send"
+    rgpd-authorize: "GDPR authorization: you can update your preferences or unsubscribe at any time using the link at the bottom of our emails. We use Mailchimp as our marketing platform. By subscribing, you acknowledge that your information will be treated according to our privacy policy and transferred to Mailchimp for processing."
+  discover:
+    title: "Discover"
+    home: "Home"
+    ensemble: "Newzik Ensemble"
+    education: "Newzik Education"
+    publishers: "Newzik Publishers"
+    blog: "Blog"
+  products:
+    title: "Products"
+    app: "Newzik App"
+    web: "Newzik Web"
+    maestria: "Maestria"
+    knowledge: "Knowledge base"
+    betatest: "Betatest"
+  about:
+    title: "About"
+    team: "Team"
+    jobs: "Jobs"
+    press: "Press"
+    contact: "Contact us"
+  socials:
+    title: "Follow us"
+    facebook: "Facebook"
+    instagram: "Instagram"
+    youtube: "YouTube"
+    linkedin: "LinkedIn"
+    twitter: "Twitter"
+  mentions:
+    copyright: "Copyright @ 2021 Syncsing SAS."
+    legal: "Legal notice"
+    privacy: "Privacy policy"
+    terms: "General Terms of Use"
+
+blog:
+  article:
+    left:
+      default:
+        p1: "Newzik lets you access your scores from any device and share markings in real-time with other users."
+        p2: "Join a community of 150,000+ musicians and unleash the power of digital scores with Newzik!"
+        cta: "Get started for free"
+      edu:
+        p1: "Newzik Education is a unique collaborative platform for music teachers & students."
+        p2: "Create interactive lessons, annotate your students' scores remotely and keep track of their progress with Newzik Education."
+        p3: "Try for free for 30 days!"
+        cta: "Find out more"
+      ens:
+        p1: "A premium offer for orchestras adopting digital scores."
+        p2: "Rent digital material from top music publishers, gain efficiency in music distribution, save time in rehearsals and move to a paperless performance with Newzik Ensemble."
+        p3: "Try for free for 30 days!"
+        cta: "Fint out more"
+      pub:
+        p1: "Our Publishing Web Platform is designed to help you sell and rent your digital catalog to our community of 150 000+ musicians, while protecting your copyright and content from piracy."
+        p2: "Learn more about our products & services for music publishers and start growing your digital sales today!"
+        cta: "Find out more"
+    bottom:
+      recommended_reads: "Recommended reads"
+    right:
+      author: "AUTHOR"
+      share: "SHARE THIS ON:"
