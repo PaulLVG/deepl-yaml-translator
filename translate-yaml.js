@@ -7,10 +7,10 @@ import yaml from 'js-yaml';
 //Parameters for the translation job
 let source_locale = "en"; //Set source locale
 let target_locale = "ru"; //Set translation target
-let source_file = './common.en.yaml'; //Set the filepath to the original yaml document.
+let source_file = './source.yaml'; //Set the filepath to the original yaml document.
 let deeplAuthKey = '' // Indicate your DeepL API authentication key here.
 
-async function translateIterate (data, source, target) {
+async function translateIterate (data, source, target, deeplAuthKey) {
     for (const key in data) {
         if (typeof data[key] === 'string') {
             let translation = await deeplTranslate(data[key], source, target);
